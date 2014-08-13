@@ -1,30 +1,39 @@
 from tkinter import *
-from re import *
+from libs.RegexSaver.RegexSaver import *
+import re
 import PyV8
 import ctypes
+import sys
+import os
+
 myappid = 'Jelmour.JSRegex.1' # Set ID for this program
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid) # Set program with this ID - also allows for icon to be displayed in taskbar
 
 JsC = PyV8.JSContext() # Initialise JavaScript runner for Python
 JsC.enter() # Launch JavaScript runner
-root = Tk() # Setup module for generating UI
 
 def TestTextAgainstRegex(Regex, TestText): # Define function TestTextAgainstRegex and get parameters Regex and TestText
-    JsC.eval("var jsTestText = '" + str(TestText) + "'") # JavaScript runner eval (like normal JS eval) create variable with TestText
-    JsC.eval("var jsRegex = new RegExp('" + str(Regex) + "')") # Create Regex with passed Regex parameter
-    Passed =  JsC.eval("jsRegex.test(jsTestText)") # Test TestText against Regex
-    if Passed == True: # If regex has returned true
-        PassedLable.config(text = "Passed!", fg="#00CC 00") # Set text to 'Passed!' and foreground color (text color in this instance) to green
-    else: # Otherwise
-        if Passed == False: # If regex is false
+    try:
+        JsC.eval("var jsTestText = '" + str(TestText) + "'") # JavaScript runner eval (like normal JS eval) create variable with TestText
+        JsC.eval("var jsRegex = new RegExp('" + str(Regex) + "')") # Create Regex with passed Regex parameter
+        Passed =  JsC.eval("jsRegex.test(jsTestText)") # Test TestText against Regex
+        PassedLable.config(text = "") # Reset PassedLabel text to nothing
+        if Passed == True: # If regex has returned true
+            PassedLable.config(text = "Passed!", fg="#00CC00") # Set text to 'Passed!' and foreground color (text color in this instance) to green
+        else: # Otherwise
             PassedLable.config(text = "Failed!", fg="#FF0000") # Set text to 'Failed!' and foreground color to red
-        else:
-            PassedLable.config(text = "Error! " + str(Passed), fg="#0000FF") # Set text to 'Error!' followed by the returned regex value and foreground color to blue
+    except Exception:
+        PassedLable.config(text = "Error! " + str(sys.exc_info()[0]), fg="#0000FF")
 
+
+root = Tk() # Setup module for generating UI
 root.minsize(550,75) # Set size of window to 550px by 75px
 root.resizable(width=FALSE, height=FALSE) # Make window not resizable
 root.title("JavaScript Regex Tester") # Set title to JavaScript Regex Tester
 root.iconbitmap('icon.ico') # Set the window (and now taskbar) icon
+
+RegexSaverVar = RegexSaver(root)
+RegexSaverVar.SetUpResexSaver()
 
 MotherRegexFrame = Frame(root) # Create a frame (a container) inside of root (the window) and call it MotherRegexFrame
 MotherRegexFrame.pack() # Place frame with no options

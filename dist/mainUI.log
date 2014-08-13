@@ -1,0 +1,183 @@
+Traceback (most recent call last):
+  File "mainUI.py", line 10, in <module>
+  File "D:\Python33\lib\tkinter\__init__.py", line 1756, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: Can't find a usable tk.tcl in the following directories: 
+    {D:/Users/James/Documents/LiClipse Workspace/ResexTester/dist/tcl/tcl8.5/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/dist/tcl/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/lib/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/lib/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/library}
+
+
+
+This probably means that tk wasn't installed properly.
+
+Traceback (most recent call last):
+  File "mainUI.py", line 10, in <module>
+  File "D:\Python33\lib\tkinter\__init__.py", line 1756, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    {D:/Users/James/Documents/LiClipse Workspace/ResexTester/lib/tcl8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/lib/tcl8.5} {D:/Users/James/Documents/LiClipse Workspace/lib/tcl8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/library} {D:/Users/James/Documents/LiClipse Workspace/library} {D:/Users/James/Documents/LiClipse Workspace/tcl8.5.11/library} D:/Users/James/Documents/tcl8.5.11/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+Traceback (most recent call last):
+  File "mainUI.py", line 10, in <module>
+  File "D:\Python33\lib\tkinter\__init__.py", line 1756, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: Can't find a usable tk.tcl in the following directories: 
+    {D:/Users/James/Documents/LiClipse Workspace/ResexTester/dist/tcl/tcl8.5/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/dist/tcl/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/lib/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/lib/tk8.5} {D:/Users/James/Documents/LiClipse Workspace/ResexTester/library}
+
+
+
+This probably means that tk wasn't installed properly.
+
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python33\lib\tkinter\__init__.py", line 1442, in __call__
+  File "mainUI.py", line 65, in <lambda>
+  File "mainUI.py", line 14, in TestTextAgainstRegex
+  File "<string>", line None
+SyntaxError: SyntaxError: Unexpected token ILLEGAL (  @ 1 : 25 )  -> var jsRegex = new RegExp('^[A-Za-z9]{5}[0-9]{6}[A-Za-z]{1}[A-Za-z9]{1}[A-Za-z0
+Traceback (most recent call last):
+  File "mainUI.py", line 10, in <module>
+  File "D:\Python33\lib\tkinter\__init__.py", line 1756, in __init__
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    C:/Users/Jelmour/Downloads/ResexTester/lib/tcl8.5 C:/Users/Jelmour/Downloads/ResexTester/lib/tcl8.5 C:/Users/Jelmour/Downloads/lib/tcl8.5 C:/Users/Jelmour/Downloads/ResexTester/library C:/Users/Jelmour/Downloads/library C:/Users/Jelmour/Downloads/tcl8.5.11/library C:/Users/Jelmour/tcl8.5.11/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+

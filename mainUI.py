@@ -1,4 +1,4 @@
-from tkinter import *
+from Tkinter import *
 from libs.RegexSaver.RegexSaver import *
 import re
 import PyV8
